@@ -114,6 +114,8 @@
             cameraViewFrame.origin.y = scrollview.contentOffset.y + root.view.frame.size.height -kTabbarHeight - (kCameraViewHeight - kCameraViewWidth);
         } else {
             // dockFrame.origin.y -= kDockHeight;
+            cameraViewFrame.origin.y = root.view.frame.size.height -kCameraViewHeight;
+            dockFrame.origin.y = root.view.frame.size.height - kTabbarHeight;
         }
         _mytabbar.frame = dockFrame;
         

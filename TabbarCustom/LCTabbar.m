@@ -54,7 +54,7 @@
         btn.tag = i;
         if (i!=2) {
             [btn setTitle:title forState:UIControlStateNormal];
-            btn.titleLabel.font = [UIFont systemFontOfSize: 12.0];
+            btn.titleLabel.font = [UIFont systemFontOfSize: 11.0];
             btn.titleLabel.textAlignment = NSTextAlignmentCenter;
             [btn setTitleColor:RGB(29, 173, 248) forState:UIControlStateSelected];
             [btn setTitleColor:RGB(128, 128, 128) forState:UIControlStateNormal];
